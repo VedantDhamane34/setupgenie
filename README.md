@@ -1,21 +1,67 @@
-<<<<<<< HEAD
-# React + Vite
+# ⚡ SetupGenie
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> AI-powered WFH setup configurator for India
 
-Currently, two official plugins are available:
+## What is SetupGenie?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+SetupGenie helps you build the perfect Work-From-Home setup based on your exact budget, role, room size, and pain points. Our AI generates a complete personalised workspace recommendation — monitor to mood lighting — with real Indian market prices.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🤖 AI-Personalised recommendations (Groq / Llama 3.3)
+- 💡 Covers all 10 categories (display, seating, lighting, audio, etc.)
+- 🛒 Multi-platform shopping (Amazon, Flipkart, Croma, Reliance, Tata Cliq)
+- 📊 Price comparison across platforms
+- 🔄 Swap any item with alternatives
+- 💾 Save and share your setup
+- 🇮🇳 Real 2025 Indian market prices
+- 🎯 Exact budget enforcement
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# setupgenie
-AI-powered WFH setup configurator for India
->>>>>>> 8ac20d735916622c5b9c22e636aed0f12e1f4544
+- **Frontend:** React 18 + Vite
+- **AI:** Groq API (Llama 3.3 70B)
+- **Styling:** Pure CSS (no framework)
+- **Storage:** localStorage (Phase 1)
+
+## Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/VedantDhamane34/setupgenie.git
+cd setupgenie
+
+# Install dependencies
+npm install
+
+# Add your API key
+cp .env.example .env
+# Add your Groq API key to .env
+
+# Run locally
+npm run dev
+```
+
+## Environment Variables
+
+VITE_GROQ_API_KEY=your_groq_api_key_here
+
+Get your free Groq API key at [console.groq.com](https://console.groq.com)
+
+## Roadmap
+
+- [x] Phase 1 — React MVP with AI generation
+- [ ] Phase 2 — MERN backend with real auth
+- [ ] Phase 3 — Real product database with ASINs
+- [ ] Phase 4 — Community setups + sharing
+- [ ] Phase 5 — Pro subscription + B2B
+
+## Author
+
+**Vedant Dhamane**
+- GitHub: [@VedantDhamane34](https://github.com/VedantDhamane34)
+- LinkedIn: [vedant-dhamane](https://www.linkedin.com/in/vedant-dhamane/)
+
+## License
+
+MIT
