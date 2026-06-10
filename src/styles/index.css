@@ -3276,3 +3276,14 @@ button {
     transform: rotate(360deg);
   }
 }
+
+.pcestimate-banner{
+  background:rgba(251,191,36,.08);
+  border:1px solid rgba(251,191,36,.2);
+  border-radius:9px;
+  padding:9px 12px;
+  font-size:11.5px;
+  color:var(--gold);
+  margin-bottom:12px;
+  line-height:1.5;
+}
